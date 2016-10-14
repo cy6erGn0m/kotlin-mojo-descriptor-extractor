@@ -2,7 +2,6 @@ package org.jetbrains.kotlin.maven
 
 import com.intellij.openapi.*
 import com.intellij.openapi.util.*
-import com.intellij.psi.*
 import org.apache.maven.plugin.descriptor.*
 import org.apache.maven.tools.plugin.*
 import org.apache.maven.tools.plugin.extractor.*
@@ -16,7 +15,6 @@ import org.jetbrains.kotlin.idea.*
 import org.jetbrains.kotlin.load.java.*
 import org.jetbrains.kotlin.name.*
 import org.jetbrains.kotlin.psi.*
-import org.jetbrains.kotlin.psi.psiUtil.*
 import org.jetbrains.kotlin.resolve.*
 import org.jetbrains.kotlin.resolve.annotations.*
 import org.jetbrains.kotlin.resolve.descriptorUtil.*
